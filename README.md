@@ -18,6 +18,30 @@
 [Scarica PowerPlayer Linux 1.0 AppImage](https://github.com/nukerslinux/PowerPlayer-Linux/releases/download/v1.0.0/PowerPlayer-Linux-1.0-x86_64.AppImage)
 
 ## Avvio dell'AppImage
+## Installazione con icona nel menu delle applicazioni
+
+Per installare PowerPlayer Linux con la sua icona nel menu delle applicazioni, scarica il pacchetto completo:
+
+[Scarica PowerPlayer Linux 1.0 Installer ZIP](https://github.com/nukerslinux/PowerPlayer-Linux/releases/download/v1.0.0/PowerPlayer-Linux-1.0-Installer.zip)
+
+### Procedura di installazione
+
+1. Scarica il file `PowerPlayer-Linux-1.0-Installer.zip`.
+2. Estrai l'archivio ZIP.
+3. Apri un terminale nella cartella estratta `PowerPlayer-Linux-1.0-Installer`.
+4. Esegui i seguenti comandi:
+
+```bash
+chmod +x installa.sh
+./installa.sh
+```
+
+Lo script copierà PowerPlayer nella cartella personale dell'utente e creerà automaticamente il collegamento nel menu delle applicazioni, con la sua icona.
+
+**Non sono necessari i permessi di amministratore (`sudo`).**
+
+L'integrazione è stata verificata su Garuda Linux con KDE Plasma. La compatibilità con altre distribuzioni e ambienti desktop è ancora da verificare.
+
 
 Dopo aver scaricato il file, apri un terminale nella cartella in cui si trova ed esegui:
 
